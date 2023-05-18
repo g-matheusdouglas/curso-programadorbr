@@ -1,0 +1,16 @@
+​DÚVIDAS DOS ALUNOS
+
+Não é perigoso nosso código ser visível para para outros programadores?
+
+​Um site simples normalmente não tem dados sensíveis. Se o seu sistema tem dados sensíveis, ou precisa armazenar algo em banco de dados e etc, isso é feito através do backend (vc verá aqui no curso). Nesse caso, todo o seu código do backend não vai ficar disponível para visualização.
+
+OBS: dados sensíveis são dados que não deveriam ficar expostos, dados importantes como o endereço da sua casa, seu CPF, a conta do seu banco, isso são dados sensíveis.​
+
+​Eu consigo inspecionar qualquer site? ou apenas nossas criações?​​​
+
+Você pode inspecionar qualquer site.​
+
+
+Em resumo os códigos ficam expostos, existe códigos protegido?
+
+​O frontend fica exposto sim, o que precisamos que não apareça vai ser feito depois lá no backend, será demonstrado isso mais a fundo mais para o final do curso no módulo de nodejs.
