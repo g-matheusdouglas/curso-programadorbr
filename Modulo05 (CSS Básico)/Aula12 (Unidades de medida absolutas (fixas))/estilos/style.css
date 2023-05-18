@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+#fotoMatheus {
+    width: 120pt ;
+}
+
+#fotoMatheus2 {
+    width: 10pc ;
+}
+
+#azul {
+    background-color: blue;
+    width: 500px;
+    height: 250px;
+    font-size: 100px;
+}
