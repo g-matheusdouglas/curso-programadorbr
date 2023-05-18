@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+body {
+    background-image: url('../imagens/Textura_fundo.png');
+}
+
+div {
+    width: 500px;
+    height: 300px;
+    /* background-color: rgb(240, 100, 0);
+    background-image: url('../imagens/BackgroundImage.png');
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain; */
+    background: rgb(240, 100, 0) 
+    url('../imagens/BackgroundImage.png') 
+    no-repeat 
+    top right;
+    background-size: contain;
+}
+
+p {
+    width: 300px;
+    background-color: aquamarine;
+    background-image: url('../imagens/Fundo_abstrato.jpg');
+    background-attachment: fixed;
+}
