@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+body {
+    font-family: "Comic Sans MS", Arial, Helvetica, sans-serif; 
+}
+
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: 400;
+    font-variant: small-caps;
+}
