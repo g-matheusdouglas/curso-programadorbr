@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+#primeira {
+    height: 100px;
+    background-color: blue;
+}
+
+#segunda {
+    background-color: red;
+    border: 2px solid black;
+    margin: 10px;
+    padding: 100px;
+    padding-right: 300px;
+}
+
+#terceira {
+    height: 100px;
+    background-color: green;
+}
+
+p {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+p {
+    margin: 0;
+}
