@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+.verde {
+    height: 100px;
+    background: linear-gradient(90deg, yellow, 20%, red 60%, orange);
+}
