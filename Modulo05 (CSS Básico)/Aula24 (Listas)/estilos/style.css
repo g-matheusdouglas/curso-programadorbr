@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+ul {
+    
+}
+
+li {
+    background-color: rgb(255, 192, 4);
+    margin: 10px;
+    padding: 10px;
+}
+
+ol {
+    background-color: #09c;
+    list-style: upper-alpha;
+    padding: 30px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
