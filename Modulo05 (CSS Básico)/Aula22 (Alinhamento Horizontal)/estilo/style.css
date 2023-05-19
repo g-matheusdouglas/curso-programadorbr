@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+div {
+    background-color: blue;
+    margin: auto;
+    text-align: center;
+}
+
+p {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    background-color: red;
+    margin-left: auto;
+}
