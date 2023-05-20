@@ -7,44 +7,95 @@
     --cor: #ff6b28;
 }
 
-body {
+html, body {
     margin: 0;
     padding: 0;
+    
+}
+
+body {
     font-family: var(--font);
+    font-size: 20px;
 }
 
-.top-bar {
-    background-color: var(--cor);
-    text-align: center;
-    padding: 10px;
-}
-
-header {
-    height: 265px;
-    background-image: url('../images/hero_bolo.jpg');
-    background-size: cover;
-}
-
-main {
-    max-width: 750px;
-    margin: auto;
-    text-align: justify;
-    font-size: 18px;
-    line-height: 26px;
-}
-
-main h1, h2 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: var(--cor);
 }
 
-main > section {
-    padding: 30px;
-    border-radius: 20px;
-    margin: 30px;
+a {
+    text-decoration: none;
 }
 
-main > section:hover {
-    box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.161);
+.text-white {
+    color: white;
+}
+
+
+#top-bar {
+    background-color: var(--cor);
+    text-align: center;
+    padding: 15px;
+}
+
+header {
+    height: 400px;
+    background-image: url('../images/hero_bolo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    max-width: 990px;
+    margin: auto;
+    padding: 0 40px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+main h1 {
+    font-size: 48px;
+}
+
+main h2 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+ul.lista-ingredientes {
+    margin-bottom: 50px;
+}
+
+main li {
+    margin: 14px;
+}
+
+main a.bnt {
+    background-color: var(--cor);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+main a.bnt:hover {
+    background-color: white;
+    color: var(--cor);
+    border: 2px solid var(--cor);
+    cursor: pointer;
+}
+
+section.card {
+    padding: 70px 100px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+section.card:hover {
+    /* box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.161); */
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
 }
 
 section.ingredientes {
@@ -59,46 +110,23 @@ section.intrucoes {
     cursor: url('../images/cursor_intrucoes.png'), default;
 }
 
-main a.bnt {
-    background-color: var(--cor);
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 15px;
-}
-
-main a.bnt:hover {
-    background-color: white;
-    color: var(--cor);
-    border: 2px solid var(--cor);
-    cursor: pointer;
-}
-
-main ul {
-    margin-bottom: 30px;
-}
-
-main li {
-    margin: 10px;
-}
-
 footer {
     color: white;
     background-color: var(--cor);
-    padding: 5px;
+    padding: 15px;
     text-align: center;
+    margin-top: 30px;
 }
 
-footer > div {
-    max-width: 450px;
+p.footer-text {
+    max-width: 500px;
     margin: auto;
+    font-size: 16px;
+    line-height: 24px;
 }
 
-footer > div > a {
-    color: white;
-    text-decoration: none;
-}
 
-footer > div > a:hover {
+
+p.footer-text a:hover {
     text-decoration: underline;
 }
