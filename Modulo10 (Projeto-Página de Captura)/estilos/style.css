@@ -105,3 +105,35 @@ footer {
 .description h2 {
     font-size: 1.5rem;
 }
+
+@media screen and (max-width: 600px) {
+    .formCantainer {
+        max-width: 80%;
+        float: none;
+        margin: auto;
+    }
+
+    footer {
+        position: relative;
+        padding: 0;
+    }
+
+    .picture {
+        width: 100%;
+        display: block;
+    }
+
+    .description {
+        position: absolute;
+        display: block;
+        box-sizing: border-box;
+        text-align: justify;
+        background-color: #20212183;
+        max-width: none;
+        width: 100%;
+        height: 100%;
+        padding: 40px;
+        margin-left: 0;
+        top: 0%;
+    }
+}
