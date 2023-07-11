@@ -1,0 +1,9 @@
+Se o queijo estiver fechado então
+    abrir o queijo
+fim
+
+Pegar a faca
+abrir o pão com a faca
+cortar um pedaço do queijo com a faca
+Passar o queijo na parte inerna do pão no pão com a faca
+larga a faca e comer o pão
