@@ -32,7 +32,7 @@ var aluno = turma[2]
  */
 
 var a = new aluno('Igor', 8, 7)
-var a = new aluno('João', 6, 7)
+var b = new aluno('João', 6, 7)
 
 console.log(a)
 
