@@ -1,0 +1,1 @@
+alert('Está página acabou de ser iniciada')
