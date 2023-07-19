@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventos - Parte 1/3 DOM Events</title>
+    <style>
+        div {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            font-size: 2rem;
+            background-color: cornflowerblue;
+            color: aliceblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eventos - Parte 1/3 DOM Events</h1>
+    <h2 onclick="h2click()">Clique em mim</h2>
+    <input type="text" name="txt" id="txt" oninput="changeH1(this)">
+    <br>
+    <div onclick="hideH1()">Click</div>
+    <script src="scrtipt.js"></script>
+</body>
+</html>
