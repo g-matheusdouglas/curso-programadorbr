@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.botoes {
+            background-color: lightgreen;
+            display: inline-block;
+            padding: 5px;
+            margin-left: 5px;
+            border-radius: 10px;
+        }
+
+       span.btn {
+        font-size: 1.6rem;
+       }
+
+       span.btn:hover {
+        cursor: pointer;
+       }
+
+       span.btn:active {
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.342);
+       }
+
+    </style>
+</head>
+<body> 
+    <audio id="podcast" controls>
+        <source src="./assest/audio/Profissão na Real - Tecnologia.mp3" type="audio/mp3">
+    </audio>
+    <br>
+    <div class="botoes">
+        <span class="btn" onclick="play()">▶️</span>
+        <span class="btn" onclick="pause()">&#x23F8</span>
+        <span class="btn" onclick="recromeça()">&#x23F9</span>
+        <span class="btn" onclick="retroceder()">&#x23EE</span>
+        <span class="btn" onclick="avançar()">&#x23ED</span>
+        <span class="btn" onclick="diminuir_vel()">&#x23EA</span>
+        <span class="btn" onclick="aumentar_vel()">&#x23E9</span>
+    </div>
+</body>
+<script src="script.js">
+
+</script>
+</html>
