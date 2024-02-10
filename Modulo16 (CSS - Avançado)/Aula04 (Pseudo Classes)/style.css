@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+input:focus {
+    color: red;
+}
+
+li {
+    list-style: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+
+li:nth-of-type(even) {
+    background-color: beige;
+}
+
+li:nth-of-type(odd) {
+    background-color: gray;
+    color: white;
+}
