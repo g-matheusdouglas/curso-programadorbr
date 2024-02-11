@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    flex-flow: row wrap-reverse;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+
+    height: 400px;
+    background-color: darkgray;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+}
+
+.r2 {
+    background-color: blue;
+}
+
+.r3 {
+    background-color: green;
+}
+
+.rect {
+    width: 150px;
+    height: 150px;
+}
