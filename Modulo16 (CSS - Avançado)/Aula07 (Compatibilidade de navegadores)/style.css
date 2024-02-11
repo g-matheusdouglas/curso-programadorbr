@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+div {
+    width: 420px;
+    height: 300px;
+    transform: skew(30deg, 30deg) scale(0.7,1);
+    -webkit-transform: skew(30deg, 30deg) scale(0.7,1);
+    -moz-transform: skew(30deg, 30deg) scale(0.7,1);
+    -ms-transform: skew(30deg, 30deg) scale(0.7,1);
+    background-color: red;
+}
