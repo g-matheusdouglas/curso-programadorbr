@@ -9,7 +9,7 @@ body {
 .primeira {
     width: calc(100% - 200px);
     height: 100px;
-    background-color: blue;A
+    background-color: blue;
     margin: auto;
 }
 

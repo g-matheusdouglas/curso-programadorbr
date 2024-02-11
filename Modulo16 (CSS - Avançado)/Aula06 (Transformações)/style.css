@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+div {
+    width: 420px;
+    height: 300px;
+    transform: skew(30deg, 30deg) scale(0.7, 1);
+    background-color: red;
+}
+
+/* img {
+    width: 420px;
+    transform: skew(30deg, 30deg) scale(0.7,1);
+} */
