@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.container {
+    display: flex;
+    background-color: darkgrey;
+    height: 400px;
+    color: white;
+}
+
+.r1 {
+    background-color: red;
+    order: 3;
+}
+
+.r2 {
+    background-color: blue;
+    order: 1;
+}
+
+.r3 {
+    background-color: green;
+    order: 3;
+}
+
+.rect {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
