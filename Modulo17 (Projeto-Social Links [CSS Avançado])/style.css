@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+:root {
+    --font: "Sora", sans-serif;
+    --cor-font1: #FFFFFF;
+    --cor-font2: #919193;
+    --cor-gradiente1: #5578BA;
+    --cor-gradiente2: #40A376; 
+}
+
+#container {
+    background-color: lightslategrey;
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: var(--font);
+}
