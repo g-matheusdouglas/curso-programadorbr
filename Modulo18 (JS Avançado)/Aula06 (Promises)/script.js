@@ -4,7 +4,7 @@ function inserirUsuario(nome) {
     let promise = new Promise(function(resolve, reject) {
         setTimeout(() => {
             usuarios.push(nome); 
-            let erro = true;
+            let erro = false;
             if(!erro) {
                 resolve();
             }else {
@@ -20,6 +20,12 @@ function listarUsuarios() {
 }
 
 inserirUsuario('Matheus')
+    .then(listarUsuarios)
+    .catch((error) => {
+    console.log(error.msg)
+});
+
+inserirUsuario('Gustavo')
     .then(listarUsuarios)
     .catch((error) => {
     console.log(error.msg)
